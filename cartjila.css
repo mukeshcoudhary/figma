@@ -1,0 +1,166 @@
+.ic:hover{
+    transition: all 1s;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.img1{
+
+    margin-top: 20%;
+  text-align: center;
+  
+}
+.img1:hover{
+    transition: all 0.5s;
+    transform: scale(0.5);
+}
+.img2{
+    border: 1px solid black;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(220, 220, 220);
+}
+.m{
+    height: 40vh;
+    overflow: hidden;
+   
+
+}
+.n{
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+ 
+
+    .img2:hover{
+        transition: all 2s;
+        transform: scale(0.6);
+    }
+    .d1{
+        text-align: center;
+        background-color: rgb(222, 218, 218);
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height:60vh;
+        text-align: center;
+        margin-top: 10%;
+        
+    }
+    .a:hover{
+        cursor: pointer;
+        border-bottom: 1px solid black;
+    }
+    .a1{
+       background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/hero-slider/04.png);
+       width: 100%;
+       height: 40vh;
+       background-position: center;
+       background-size: cover;
+    }
+    .a2{
+       background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/hero-slider/03.png);
+       width: 100%;
+       height: 40vh;
+       background-position: center;
+       background-size: cover;
+    }
+    .a1:hover{
+
+        cursor: pointer;
+        background-image: url(https://cartzilla.createx.studio/assets/img/shop/furniture/05-hover.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.3s;
+        
+    }
+    .a2:hover{
+
+        cursor: pointer;
+        background-image: url(https://cartzilla.createx.studio/assets/img/shop/furniture/04-hover.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.3s;
+        
+    }
+    ::placeholder {
+        color: red;
+        opacity: 1; /* Firefox */
+      }
+  .n1:hover{
+    cursor: pointer;
+  }
+  .a3{
+    background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/categories/05.png);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+ }
+ .a3:hover{
+
+    cursor: pointer;
+    background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/gallery/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.a4{
+    background-image: url(https://cartzilla.createx.studio/assets/img/shop/furniture/08-hover.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+ }
+
+ .a4:hover{
+
+    cursor: pointer;
+    background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/hero-slider/02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.main2{
+    overflow: scroll;
+    
+}
+.main2::-webkit-scrollbar{
+    display: none;
+}
+.b1{
+    background-image: url(https://cartzilla.createx.studio/assets/img/home/furniture/hero-slider/02.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+  @media (max-width:750px) {
+   .main{
+    overflow-x: scroll;
+    height: 40vh;
+    
+   }
+   .img1 img{
+    width: 500px;
+   }
+   .main2{
+    gap: 5%;
+   }
+   .m5{
+    flex-direction: column;
+   }
+   
+    
+  }
