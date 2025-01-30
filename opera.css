@@ -1,0 +1,108 @@
+.mk:hover{
+    color: blue;
+}
+.mn{
+    background-color: rgba(52, 50, 50, 0.285);
+
+    backdrop-filter: blur(5px);
+    /* mix-blend-mode: difference; */
+}
+.back{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/hero-top/home/opera__home--hero.510a4780fbd8.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    /* position: relative; */
+}
+.mu{
+    text-align: center;
+    margin-top: 10%;
+}
+.back img{
+    margin-left: 50%;
+    position: sticky;
+    top: 30%;
+}
+.j1:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.mg{
+    margin-top: 20%;
+    border-radius: 40px;
+    background-color: rgb(247, 247, 247);
+    padding: 10%;
+}
+.mg:hover{
+    color: blue;
+}
+.muke{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/parallax/home/opera__home--parallax.a7953a6c0035.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
+    height: 100vh;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+}
+.mukesh{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/parallax/home/opera__home--parallax-2.00d60c6fbb16.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
+    height: 100vh;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+}
+
+.had {
+    position: sticky;
+    top: 90%;
+    
+}
+.j2 p{
+    font-size: 12px;
+}
+.j2 h3{
+    font-size: 20px;
+}
+.j2 p:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+@media(max-width:768px){
+    .back img{
+        width: 40%;
+        margin-left: 60%;
+        margin-top: 70%;
+    }
+    .im1{
+        width: 40%;
+    }
+    .mu{
+        margin-top: 30%;
+    }
+    .nm img{
+        width: 40%;
+    }
+    .bn{
+        display: flex;
+        align-items: center;
+        margin-top: -5px;
+        justify-content: space-between;
+    }
+    .muke{
+        height: 50vh;
+    }
+
+
+}
+

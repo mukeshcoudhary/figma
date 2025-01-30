@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="coinbase.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light position-fixed w-100 z-3">
+      <div class="container-fluid">
+        <img
+          class="im"
+          width="15%"
+          src="https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg"
+          alt=""
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </b utton>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Explore</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Individuals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Businesses </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Developers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+          </ul>
+          <form style="align-items: center" class="d-flex gap-4" role="search">
+            <a href=""> <i class="fa-brands fa-chrome"></i></a>
+            <button class="btn btn-outline-dark rounded-5" type="submit">
+              Sign in
+            </button>
+            <button class="btn btn-outline-primary rounded-5" type="submit">
+              Sign up
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img style="margin-top: 10%"
+            width="100%"
+            src="https://images.ctfassets.net/c5bd0wqjc7v0/6TEOvIYU6qtgLm87Y4mK5s/4171df02eabc835c518884c2b3476380/hero_3x_B.png?fm=webp&q=100&w=1180"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div style="margin-top: 20%">
+            <h1 style="font-weight: 500">
+              The future of <br />
+              money is here
+            </h1>
+            <p style="font-weight: 500">
+              We're the most trusted place for people and businesses to buy,
+              sell, and manage crypto.We're the most trusted place for people
+              and businesses to buy, sell, and manage crypto.We're the most
+              trusted place for people and businesses to buy, sell, and manage
+              crypto.
+            </p>
+            <form action="">
+              <label style="font-weight: 500" for="">Email address</label
+              ><br /><br />
+              <div class="d-flex gap-3">
+                <input
+                  class="in1"
+                  type="email"
+                  name="name"
+                  placeholder="satoshi@nakamoto.com
+                "
+                />
+                <button class="btn btn-outline-primary rounded-5" type="submit">
+                  Sign up
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="background-color: rgba(135, 207, 235, 0.185); padding: 7%"
+      class="container-fluid"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div style="margin-top: 35%">
+              <h1>Explore crypto like Bitcoin, Ethereum, and Dogecoin</h1>
+              <h2 class="mt-5">
+                Simply and securely buy, sell, and manage hundreds of
+                cryptocurrencies.
+              </h2>
+              <button
+                class="btn btn-outline-primary rounded-5 p-2 mt-5"
+                type="submit"
+              >
+                See more assets
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div style="align-items: center" class="d-flex gap-4">
+              <button
+                class="btn btn-outline-primary rounded-5 p-2 mt-5"
+                type="submit"
+              >
+                Tradable
+              </button>
+              <h5 class="mt-5">Top gainers</h5>
+            </div>
+            <div class="row mt-5">
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113541.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">4.65%</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113527.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">8.34</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113550.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">3.58%</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113647.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">2.89%</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113613.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">3.99%</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-6">
+                <div class="card mt-2 rounded-5" style="width: 100%">
+                  <div class="card-body">
+                    <img
+                      src="coinbaseimg/Screenshot 2024-09-19 113604.png"
+                      alt=""
+                    />
+                    <h3 class="card-title">Ethereu</h3>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      ₹201,558.45
+                    </h6>
+                    <h2 class="text-success">4.58%</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div style="padding-top: 10%; padding-bottom: 10%" class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 10%">
+            <h3>Take control of your money</h3>
+            <h1 class="mt-5">Start your portfolio today and discover crypto</h1>
+            <div class="d-flex gap-3 mt-5">
+              <input
+                class="in1"
+                type="email"
+                name="name"
+                placeholder="satoshi@nakamoto.com
+                    "
+              />
+              <button class="btn btn-outline-primary rounded-5" type="submit">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <img
+            class="mt-3"
+            width="100%"
+            src="https://images.ctfassets.net/c5bd0wqjc7v0/5o0IbUnXunFKmiSC31gK6j/c9da092eda3ebc34941dfa3d107437f4/Type_Circles_4x.png?fm=webp&q=100&w=1180"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div style="background-color: rgba(0, 0, 0, 0.785)" class="container-fluid">
+      <div class="container">
+        <div class="row pt-5 pb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1 class="text-light">USDC is the dollar for the digital age</h1>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h4 class="text-light">
+              USDC gives you 24/7 access to payments and financial services.
+              Trade, spend, and send faster and more efficiently.
+            </h4>
+            <button class="btn btn-outline-light rounded-5 p-2" type="submit">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgi"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="mt-5 im5">
+            <img
+              width="80%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/548xpyb2JxtvIrb9FTWMd4/28af282fa265891fddd6af109d775bca/Retail.png?fm=webp&q=100&w=1180"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 40%">
+            <h2>Coinbase</h2>
+            <h1>Buy, sell, and store hundreds of cryptocurrencies</h1>
+            <p class="mt-5">
+              From Bitcoin to Dogecoin, we make it easy to buy and sell
+              cryptocurrency. Protect your crypto with best in class cold
+              storage.
+            </p>
+            <button
+              class="btn btn-outline-primary rounded-5 mt-5"
+              type="submit"
+            >
+              Sign up now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="mt-5 im5">
+            <img
+              width="80%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/WdlPQ8QhJ267BxSckN56A/956300e8f8cf97ce57eae9c89babc8db/Advanced.png?fm=webp&q=100&w=1180"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 40%">
+            <h2>Advanced</h2>
+            <h1>Powerful tools, designed for the advanced trader</h1>
+            <p class="mt-5">
+              Powerful analytical tools with the safety and security of Coinbase
+              deliver the ultimate trading experience. Tap into sophisticated
+              charting capabilities, real-time order books, and deep liquidity
+              across hundreds of markets.
+            </p>
+            <button
+              class="btn btn-outline-primary rounded-5 mt-5"
+              type="submit"
+            >
+              Start trading
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="mt-5 im5">
+            <img
+              width="80%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/5LzccC4O8a6lcKC3P44Q3X/a4ab2c1f19e7e3d8c3179cf95ae4c364/Wallet.png?fm=webp&q=100&w=1180"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 40%">
+            <h2>Wallet</h2>
+            <h1>Do more with your crypto with Coinbase Wallet</h1>
+            <p class="mt-5">
+              Store your crypto in your own personal crypto wallet and explore
+              decentralized finance (DeFi), buy and sell NFTs, and more.
+            </p>
+            <button
+              class="btn btn-outline-primary rounded-5 mt-5"
+              type="submit"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="mt-5 im5">
+            <img
+              width="80%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/3bmM1J1hoV2rfXYRCzX7pc/8dfccb2e234b39408c4e32c92427a8e8/Prime.png?fm=webp&q=100&w=1180"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 40%; padding-bottom: 5%">
+            <h2>Prime</h2>
+            <h1>The financial institution for a digital asset future</h1>
+            <p class="mt-5">
+              Coinbase Prime is the first choice for sophisticated investors and
+              institutions that want to invest in digital assets.
+            </p>
+            <button
+              class="btn btn-outline-primary rounded-5 mt-5"
+              type="submit"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-primary p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1 style="margin-top: 10%" class="text-light">
+              Get started in a few minutes
+            </h1>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div style="margin-top: 10%">
+              <h2 class="text-light">
+                Create an account, link your bank account, and start buying &
+                selling.
+              </h2>
+              <button
+                class="btn btn-outline-light rounded-5 mt-5"
+                type="submit"
+              >
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div style="border-left: 2px solid whitesmoke" class="d1">
+              <h1 style="font-size: 650%; color: aliceblue; margin-top: 10%">
+                $145B
+              </h1>
+              <h4 style="color: aliceblue">QUARTERLY VOLUME TRADED</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div style="border-left: 2px solid whitesmoke" class="d1">
+              <h1 style="font-size: 650%; color: aliceblue; margin-top: 10%">
+                100+
+              </h1>
+              <h4 style="color: aliceblue">COUNTRIES SUPPORTED</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div style="border-left: 2px solid whitesmoke" class="d1">
+              <h1 style="font-size: 650%; color: aliceblue; margin-top: 10%">
+                $130B
+              </h1>
+              <h4 style="color: aliceblue">ASSETS ON PLATFORM</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-6 col-12">
+          <div style="margin-top: 5%; padding-bottom: 10%">
+            <h1>The most trusted cryptocurrency exchange</h1>
+            <h5>
+              We're the most trusted place for people and businesses to buy,
+              sell, and manage crypto.
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="b1" style="margin-top: 40%; padding-bottom: 15%">
+            <button class="btn btn-outline-primary rounded-5" type="submit">
+              Sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-12 pb-5">
+          <div class="card pb-5" style="width: 100%">
+            <div class="card-body">
+              <img
+                style="margin-top: 10%; padding-bottom: 30%"
+                width="40%"
+                src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/worldwide-2.svg"
+                alt=""
+              />
+              <h5 class="card-title">The largest public crypto company</h5>
+              <p class="card-text mt-5">
+                We operate with financial transparency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12 pb-5">
+          <div class="card pb-5" style="width: 100%">
+            <div class="card-body">
+              <img
+                style="margin-top: 10%; padding-bottom: 30%"
+                width="40%"
+                src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/safe-2.svg"
+                alt=""
+              />
+              <h5 class="card-title">The largest public crypto company</h5>
+              <p class="card-text mt-5">
+                We operate with financial transparency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12 pb-5">
+          <div class="card pb-5" style="width: 100%">
+            <div class="card-body">
+              <img
+                style="margin-top: 10%; padding-bottom: 30%"
+                width="40%"
+                src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/support-3.svg"
+                alt=""
+              />
+              <h5 class="card-title">The largest public crypto company</h5>
+              <p class="card-text mt-5">
+                We operate with financial transparency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12 pb-5">
+          <div class="card pb-5" style="width: 100%">
+            <div class="card-body">
+              <img
+                style="margin-top: 10%; padding-bottom: 30%"
+                width="40%"
+                src="https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/economyGlobal-2.svg"
+                alt=""
+              />
+              <h5 class="card-title">The largest public crypto company</h5>
+              <p class="card-text mt-5">
+                We operate with financial transparency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="background-color: rgba(104, 166, 191, 0.289); padding: 5%"
+      class="container-fluid"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-md-6 col-12">
+            <div style="margin-top: 5%; padding-bottom: 10%">
+              <h1>New to crypto? Learn some crypto basics</h1>
+              <h5>
+                Beginner guides, practical tips, and market updates for
+                first-timers, experienced investors, and everyone in between
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <div class="b1" style="margin-top: 40%; padding-bottom: 15%">
+              <button class="btn btn-outline-primary rounded-5" type="submit">
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <img
+              style="border-radius: 30px"
+              width="100%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/2uifCHTIMB30V0ErAIc6ec/5e27c0f58e29c81c142424a2d54a2868/0_4mVyVaU6yLa--GR_?fm=webp&q=100&w=1180"
+              alt=""
+            />
+            <h1 class="ho1">
+              USDC: The digital dollar for the global crypto economy
+            </h1>
+            <p>
+              Coinbase believes crypto will be part of the solution for creating
+              an open financial system that is both more efficient and more
+              equitable. We co-founded the Centre Consortium in 2018 to invest
+              in the build of USDC, and since then it has become the second
+              largest stablecoin by market capitalization.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <img
+              style="border-radius: 30px"
+              width="100%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/2uifCHTIMB30V0ErAIc6ec/5e27c0f58e29c81c142424a2d54a2868/0_4mVyVaU6yLa--GR_?fm=webp&q=100&w=1180"
+              alt=""
+            />
+            <h1 class="ho1">Can crypto really replace your bank account?</h1>
+            <p>
+              If you’re a big enough fan of crypto, you’ve probably heard the
+              phrase “be your own bank” or the term “bankless” — the idea being
+              that crypto can offer more control over your financial future than
+              traditional finance. But how much of your financial life really
+              can be
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <img
+              style="border-radius: 30px"
+              width="100%"
+              src="https://images.ctfassets.net/c5bd0wqjc7v0/2uifCHTIMB30V0ErAIc6ec/5e27c0f58e29c81c142424a2d54a2868/0_4mVyVaU6yLa--GR_?fm=webp&q=100&w=1180"
+              alt=""
+            />
+            <h1 class="ho1">When is the best time to invest in crypto?</h1>
+            <p>
+              Cryptocurrencies like Bitcoin can experience daily (or even
+              hourly) price volatility. As with any kind of investment,
+              volatility may cause uncertainty, fear of missing out, or fear of
+              participating at all. When prices are fluctuating, how do you know
+              when to buy?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div style="margin-top: 15%; padding-bottom: 10%">
+            <h1>The freedom of crypto for everyone, everywhere</h1>
+            <p style="margin-top: 5%">
+              We’re committed to creating more economic freedom through
+              accessible, safe, and secure financial tools for everyone.
+            </p>
+            <button class="btn btn-outline-primary rounded-5" type="submit">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <img
+            style="padding-bottom: 10%"
+            width="100%"
+            src="https://images.ctfassets.net/c5bd0wqjc7v0/2WsL9LyRUJd33S0ZtA9o4K/705ceb56495876ce857b9dc556050b84/tools.jpeg?fm=webp&q=100&w=1180"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      style="background-color: rgba(0, 0, 0, 0.772); padding: 5%"
+      class="container-fluid"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <h1 class="text-light">Start your portfolio today</h1>
+          </div>
+          <div class="col-lg-8 col-md-6 col-12">
+            <div>
+              <h3 class="text-light">
+                Sign up for a Coinbase account today and see what the world of
+                decentralized finance can do for you.
+              </h3>
+              <button
+                class="btn btn-outline-light rounded-5 mt-5"
+                type="submit"
+              >
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="pt-5">
+            <img
+              width="100%"
+              src="https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg"
+              alt=""
+            />
+            <p class="mt-5">© 2024 Coinbase</p>
+            <a href="">Blog • Twitter • Facebook</a>
+            <p class="mt-4">globle | english</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="mt-5 d7">
+            <h2>Company</h2>
+            <p>About</p>
+            <p>Careers</p>
+            <p>Affiliates</p>
+            <p>Blog</p>
+            <p>Press</p>
+            <p>Security</p>
+            <p>Investors</p>
+            <p>Vendors</p>
+            <p>Legal & privacy</p>
+            <p>Cookie policy</p>
+            <p>Cookie preferences</p>
+            <p>Do Not Share My Personal</p>
+            <p>Information</p>
+            <p class="pb-3">Digital Asset Disclosures</p>
+            <h3>Learn</h3>
+            <p>Bitcoin Halving</p>
+            <p>Ethereum Merge</p>
+            <p>Explore</p>
+            <p>Coinbase Bytes newsletter</p>
+            <p>Crypto basics</p>
+            <p>Tips & tutorials</p>
+            <p>Crypto glossary</p>
+            <p>Market updates</p>
+            <p>What is Bitcoin?</p>
+            <p>What is crypto?</p>
+            <p>What is a blockchain?</p>
+            <p>How to set up a crypto wallet</p>
+            <p>How to send crypto</p>
+            <p>Taxes</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="mt-5 d7">
+            <h2>Individuals</h2>
+            <p>Buy & sell</p>
+            <p>Earn free crypto</p>
+            <p>Wallet</p>
+            <p>Card</p>
+            <p class="pb-3">Coinbase One</p>
+            <h3>Businesses</h3>
+            <p>Institutional</p>
+            <p>Prime</p>
+            <p>Asset Hub</p>
+            <p>Commerce</p>
+            <p class="pb-3">Derivatives Exchange</p>
+            <h3>Developers</h3>
+            <p>Developer Platform</p>
+            <p>Base</p>
+            <p>Staking</p>
+            <p>Onramp</p>
+            <p>Wallets</p>
+            <p>Wallet SDK</p>
+            <p>Coinbase App</p>
+            <p>Exchange API</p>
+            <p>Prime API</p>
+            <p>Base Node</p>
+            <p>OnchainKit</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="pt-5 d7">
+            <h2>Support</h2>
+            <p>Help center</p>
+            <p>Contact us</p>
+            <p>Create account</p>
+            <p>ID verification</p>
+            <p>Account information</p>
+            <p>Payment methods</p>
+            <p>Account access</p>
+            <p>Supported crypto</p>
+            <p>Status</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>

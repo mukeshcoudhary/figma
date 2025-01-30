@@ -1,0 +1,64 @@
+.main1{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/demos/furniture-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+/* .main1:hover{
+         transition: all 0.5s;
+         transform: scale(1.1);
+         cursor: pointer;
+         overflow: hidden;
+         
+} */
+
+
+.main2{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/demos/grocery-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 90vh;
+}
+.main3{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/demos/fashion-1-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:70vh ;
+}
+.main4{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/demos/electronics-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:70vh ;
+}
+.main5{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/demos/fashion-2-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:70vh ;
+}
+
+.a9:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 254, 254);
+    width: 40%;
+    
+}
+.main6{
+    background-image: url(https://cartzilla.createx.studio/assets/img/intro/light-mode.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}

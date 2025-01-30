@@ -1,0 +1,142 @@
+.border{
+    border-top: 1px solid rgba(0, 0, 0, 0.913);
+    width: 100%;
+    
+
+}
+.bor2{
+    border-bottom: 5px solid black;
+    width: 20%;
+    margin-top: 15%;
+}
+.but1{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: aliceblue;
+    padding: 5px 30px;
+}
+.mk1{
+    color: rgba(0, 0, 0, 0.621);
+    margin-top: 20%;
+    
+}
+.mk2{
+    padding-bottom: 10%;
+}
+.img1{
+ width: 100%;
+ height: 70%;
+ margin-top: 20%;
+}
+.border3{
+    border-top: 5px solid white;
+    width: 15%;
+    /* margin-top: 20%; */
+
+}
+.backcoler1{
+    background-color:rgb(38, 41, 57);
+    padding: 6%;
+}
+.child{
+    color: rgb(38, 41, 57) ;
+    border: 2px solid white;
+    background-color: aliceblue;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20%;
+
+}
+.gap{
+    justify-content: space-between;
+}
+.border4{
+    border-top: 2px solid whitesmoke;
+    opacity: 0.5;
+    width: 100%;
+    margin-top: 8%;
+}
+.border5{
+    border-bottom: 4px solid rgb(38, 41, 57);
+    width: 7%;
+    padding: 10%;
+}
+.border6{
+    border: 1px solid rgb(38, 41, 57);
+    width: 100%;
+}
+.mbu{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+.mbu button{
+    border: none;
+    background-color: rgb(38, 41, 57) ;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border7{
+    border-top: 4px solid whitesmoke;
+    width: 20%;
+    margin-top: 20%;
+    
+}
+.mk5{
+    color: aliceblue;
+    margin-top: 50%;
+    padding-top: 35%;
+}
+.bor9{
+    border: 2px solid white;
+    border-radius: 60%;
+    padding: 5px;
+}
+.flex{
+    justify-content: space-between;
+}
+.main12{
+    text-align: center;
+    padding-top: 15%;
+}
+.main12 button{
+    border: none;
+    color: aliceblue;
+    background-color: rgb(38, 41, 57);
+    padding: 10px;
+}
+.border10{
+    border-bottom: 2px solid rgb(38, 41, 57);
+    width: 100%;
+    padding: 50px;
+}
+.per{
+    display: flex;
+    gap: 20px;
+    color: rgb(38, 41, 57);
+    padding-top: 20px;
+}
+.pre2{
+    display: flex;
+    text-align: center;
+    padding-left: 100px;    
+    
+}
+.per2 i{
+    padding-top: 20px ;
+    
+    
+}
+.main15{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:576px){
+    .main15{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}

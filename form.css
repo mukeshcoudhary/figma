@@ -1,0 +1,51 @@
+.bg{
+    background-image: url(https://t3.ftcdn.net/jpg/06/59/77/34/360_F_659773424_1yaiIMMGLioNsQSctl9JuOOE0pVRWZhI.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg1{
+    padding-top: 6%;
+    width: 100%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding-bottom: 70px;
+    border: 2px solid rgb(245, 240, 240);
+    align-items: center;
+    border-radius: 20px;
+    
+    
+}
+input{
+    padding-left: 5%;
+     padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+     background-color: transparent;
+     border-radius: 20px;
+     color: aliceblue;
+     
+    }
+    ::placeholder{
+        color: white;
+    }
+    button{
+        color: rgb(20, 21, 21);
+        background-color: transparent;
+        padding-left: 22%;
+        padding-right:22% ;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        border-radius: 20px;
+        background-color: aliceblue;
+    }

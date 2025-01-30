@@ -1,0 +1,50 @@
+.in1{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius:30px ;
+}
+.n1{
+   
+    
+}
+.bgi{
+    background-image: url(https://images.ctfassets.net/c5bd0wqjc7v0/7lnIVE5wVhBAd9IWdjPPhW/f3fa7b084a26d884f20634293e020aaa/cb-banner.jpeg?fm=webp&q=100&w=1180);
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+.ho1:hover{
+    color: rgb(54, 54, 219);
+    cursor: pointer;
+}
+.d7 p:hover{
+    cursor: pointer;
+}
+.nav-link{
+    display: block !important;
+}
+@media(max-width:786px){
+    .im{
+        width: 35%;
+    }
+    .in1{
+     padding: 0;
+    }
+    .im5 img{
+        width: 100%;
+    }
+    .d1{
+     padding-left: 5%;
+    }
+    .d1 h1{
+        font-size: 100px;
+    }
+    .b1{
+        margin-top: 20%;
+    }
+
+ 
+}
+

@@ -1,0 +1,31 @@
+.main{
+    background-image: url(optinetimg/div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: ;
+    background-position: center;
+    width: 100%;
+    
+}
+.main2{
+    background: linear-gradient(green,black);
+    width: 100%;
+    
+}
+.main4{
+    color: green;
+    font-size: 100px;
+    margin-top: 10%;
+
+}
+@media(max-width:576px){
+    .main4{
+        font-size: 40px;
+    }
+}
+.but8{
+    background-image: linear-gradient(to right, rgb(34, 220, 199) , yellow);
+}
+.mh1{
+    padding-top: 30%;
+}
